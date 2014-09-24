@@ -1,5 +1,5 @@
 
-LxcCoin - LXC
+LxcCoin - WBC 
 
 - 60 sec block time
 - diff retarget each block

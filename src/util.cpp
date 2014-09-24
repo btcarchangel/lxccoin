@@ -1061,7 +1061,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Unix: ~/.LxcCoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "LxcCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Lxc Coin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1076,7 +1076,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "LxcCoin";
 #else
     // Unix
-    return pathRet / ".LxcCoin";
+    return pathRet / ".lxccoin";
 #endif
 #endif
 }
