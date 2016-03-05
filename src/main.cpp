@@ -2566,7 +2566,7 @@ bool LoadBlockIndex(bool fAllowNew)
             return false;
 
         // Genesis block
-        const char* pszTimestamp = "US Banks Announce Ripple Protocol Integration";
+        const char* pszTimestamp = "NXCN is at 2 that petty good";
         CTransaction txNew;
         txNew.nTime = nChainStartTime;
         txNew.vin.resize(1);
@@ -2581,7 +2581,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1457207522;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 0;
+        block.nNonce   = 1104598;
 
 
 if (true && (block.GetHash() != hashGenesisBlock)) {
